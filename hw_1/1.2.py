@@ -5,8 +5,13 @@ import sys, click
 
 def tail(files):
     if not files:
-        lines = sys.stdin.readlines()[-17:]
-        click.echo(''.join(lines))
+        lines = []
+        for line in sys.stdin:
+            if line == '\n':
+                break
+            lines.append(line)
+
+        sys.stdout.write(''.join(lines[-17:]))
 
     else:
         for file in files:

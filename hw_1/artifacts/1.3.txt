@@ -6,3 +6,10 @@ file.txt: 64, 460, 2379
 newfile.txt: 91, 820, 4179
 total: 155, 1280, 6558
 
+python hw_1\1.3.py
+hello
+world
+
+ 3, 2, 12
+
+

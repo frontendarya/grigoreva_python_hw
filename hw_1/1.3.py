@@ -8,23 +8,18 @@ def wc(files):
     total_line_count, total_word_count, total_char_count = 0, 0, 0
 
     if not files:
-        # Если файлы не переданы, считываем из стандартного ввода
-        # content = click.get_text_stream('stdin')
-        # line_count = content.count('\n') + 1
-        # word_count = len(content.split())
-        # char_count = len(content)
-        #
-        # click.echo(f"{line_count} {word_count} {char_count}")
-
-        # input_stream = sys.stdin.read()
-        click.echo(sys.stdin.read())
+        content = ''
+        for line in sys.stdin:
+            if line == '\n':
+                break
+            content += line
+        line_count, word_count, char_count = content.count('\n') + 1, len(content.split()), len(content)
+        click.echo(f" {line_count}, {word_count}, {char_count}")
 
     else:
         for file in files:
             content = file.read()
-            line_count = content.count('\n') + 1
-            word_count = len(content.split())
-            char_count = len(content)
+            line_count, word_count, char_count = content.count('\n') + 1, len(content.split()), len(content)
             click.echo(f"{file.name}: {line_count}, {word_count}, {char_count}")
 
             total_line_count += line_count

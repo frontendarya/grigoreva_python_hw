@@ -33,3 +33,43 @@ And yeah, I like to fuck
 I got a fuckin' problem (and yeah, I like to fuck, I got a fuckin' problem)
 If findin' somebody real is your fuckin' problem
 Bring your girls to the crib, maybe we can solve it
+
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python hw_1\1.2.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
