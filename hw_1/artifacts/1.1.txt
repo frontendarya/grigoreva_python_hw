@@ -1,4 +1,4 @@
-PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.1.py -b file.txt
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python hw_1\1.1.py -b hw_1\file.txt
 1       My momma called, seen you on TV, son
 2       Said shit done changed ever since we was on
 3       I dreamed it all ever since I was young

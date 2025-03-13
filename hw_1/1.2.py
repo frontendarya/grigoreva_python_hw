@@ -11,7 +11,7 @@ def tail(files):
     else:
         for file in files:
             if len(files) > 1:
-                sys.stdout.write(f"==={file.name}===")
+                sys.stdout.write(f"\n==={file.name}===\n")
             lines = file.readlines()[-10:]
             sys.stdout.write(''.join(lines))
 

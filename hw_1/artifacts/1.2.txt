@@ -1,4 +1,4 @@
-PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.2.py file.txt
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python hw_1\1.2.py hw_1\file.txt
 Huncho Houdini is gone, aye
 My momma called, seen you on TV, son
 Said shit done changed ever since we was on
@@ -10,7 +10,7 @@ They ain't never had the dedication
 People hatin', say we changed and look we made it
 Yeah, we made it
 
-PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.2.py file.txt newfile.txt
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python hw_1\1.2.py hw_1\file.txt hw_1\newfile.txt
 ===file.txt===
 Huncho Houdini is gone, aye
 My momma called, seen you on TV, son
