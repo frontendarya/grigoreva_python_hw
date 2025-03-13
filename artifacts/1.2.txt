@@ -1,0 +1,35 @@
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.2.py file.txt
+Huncho Houdini is gone, aye
+My momma called, seen you on TV, son
+Said shit done changed ever since we was on
+I dreamed it all ever since I was young
+They said I wouldn't be nothing
+Now they always say congratulations
+Worked so hard, forgot how to vacation
+They ain't never had the dedication
+People hatin', say we changed and look we made it
+Yeah, we made it
+
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.2.py file.txt newfile.txt
+===file.txt===
+Huncho Houdini is gone, aye
+My momma called, seen you on TV, son
+Said shit done changed ever since we was on
+I dreamed it all ever since I was young
+They said I wouldn't be nothing
+Now they always say congratulations
+Worked so hard, forgot how to vacation
+They ain't never had the dedication
+People hatin', say we changed and look we made it
+Yeah, we made it
+===newfile.txt===
+I love bad bitches, that's my fuckin' problem
+And yeah, I like to fuck, I got a fuckin' problem
+I love bad bitches, that's my fuckin' problem
+And yeah, I like to fuck, I got a fuckin' problem
+I love bad bitches
+That's my fuckin' problem (I love bad bitches, that's my fuckin' problem)
+And yeah, I like to fuck
+I got a fuckin' problem (and yeah, I like to fuck, I got a fuckin' problem)
+If findin' somebody real is your fuckin' problem
+Bring your girls to the crib, maybe we can solve it

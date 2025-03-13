@@ -1,0 +1,69 @@
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.1.py -b file.txt
+1       My momma called, seen you on TV, son
+2       Said shit done changed ever since we was on
+3       I dreamed it all ever since I was young
+4       They said I wouldn't be nothing
+5       Now they always say congratulations
+6       Worked so hard, forgot how to vacation
+7       They ain't never had the dedication
+8       People hatin', say we changed and look, we made it
+9       Yeah, we made it
+10      They was never friendly, yeah
+11      Now I'm jumping out the Bentley, yeah
+12      And I know I sound dramatic, yeah
+13      But I know I had to have it, yeah
+14      For the money, I'm a savage, yeah
+15      I be itching like a addict, yeah
+16      I'm surrounded, twenty bad bitches, yeah
+17      But they didn't know me last year, yeah
+18      Everyone wanna act like they important
+19      (Yeah, yeah, yeah, yeah, yeah, yeah)
+20      But all that mean nothing when I saw my dog
+21      (Yeah, yeah, yeah, yeah, yeah, yeah)
+22      Everyone counting on me, drop the ball
+23      (Yeah, yeah, yeah, yeah, yeah, yeah)
+24      Everything costing like I'm at the bottom, yeah, yeah
+25      If you fuck with winning, put your lighters to the sky
+26      How could I make sense when I got millions on my mind?
+27      Coming with that bullshit, I just put it to the side
+28      Balling since a baby, they could see it in my eyes
+29      My momma called, seen you on TV, son
+30      Said shit done changed ever since we was on
+31      I dreamed it all ever since I was young
+32      They said I wouldn't be nothing
+33      Now they always say congratulations
+34      Worked so hard, forgot how to vacation
+35      They ain't never had the dedication
+36      People hatin', say we changed and look we made it
+37      Yeah, we made it
+38      I was patient, yeah, oh
+39      I was patient, aye, oh
+40      Now I can scream that we made it
+41      Now everyone, everywhere I go, they say 'gratulations
+42      Young nigga, young nigga, graduation
+43      I pick up the rock and I ball, baby
+44      I'm looking for someone to call, baby
+45      But right now, I got a situation
+46      Nothing but old Ben-Ben Franklins
+47      Big rings, champagne
+48      My life is like a ball game
+49      But instead, I'm in the trap though
+50      Pot so big, call it Super Bowl
+51      Super Bowl, call the hoes, get in the Rolls
+52      Top-floor lifestyle, Huncho and Post
+53      Malone, I got a play on my phone, aye
+54      You know what I'm on, aye
+55      Huncho Houdini is gone, aye
+56      My momma called, seen you on TV, son
+57      Said shit done changed ever since we was on
+58      I dreamed it all ever since I was young
+59      They said I wouldn't be nothing
+60      Now they always say congratulations
+61      Worked so hard, forgot how to vacation
+62      They ain't never had the dedication
+63      People hatin', say we changed and look we made it
+64      Yeah, we made it
+
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.1.py
+uyguyg
+1       uyguyg

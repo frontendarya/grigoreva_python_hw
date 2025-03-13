@@ -1,0 +1,8 @@
+C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.3.py file.txt
+file.txt: 64, 460, 2379
+
+PS C:\Users\ASUS-DARYA\PycharmProjects\grigoreva_python_hw> python 1.3.py file.txt newfile.txt
+file.txt: 64, 460, 2379
+newfile.txt: 91, 820, 4179
+total: 155, 1280, 6558
+
