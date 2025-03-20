@@ -1,0 +1,1 @@
+https://pypi.org/project/my-latex-cute-lib/1.4/
