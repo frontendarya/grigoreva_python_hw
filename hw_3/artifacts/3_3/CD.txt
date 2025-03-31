@@ -1,0 +1,11 @@
+1st matrix
+2 1
+4 3
+
+2nd matrix
+5 6
+7 8
+
+matmul result:
+10 6
+28 24

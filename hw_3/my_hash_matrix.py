@@ -2,13 +2,17 @@ from hw_3.matrix import Matrix
 import numpy as np
 
 class MatrixHashMixin:
-    # Хэш-функция: суммируем произведения элементов матрицы на их индексы
+    """
+    Хэш-функция: суммируем элементы в каждой строке, умножаем на индекс строки и добавляем математические операции
+    """
     def __hash__(self):
-        h = 0
-        for i in range(len(self.data)):
-            for j in range(len(self.data[0])):
-                h += (i + 1) * (j + 1) * self.data[i][j]
-        return h
+        hash_value = 1
+        row_sums = [sum(row) for row in self.data]
+
+        for ind, value in enumerate(row_sums):
+            hash_value *= ind + 1
+
+        return hash_value ** (6 % 8 + 2)
 
 class MyHashMatrix(MatrixHashMixin, Matrix):
     def __init__(self, data):
@@ -25,7 +29,6 @@ class MyHashMatrix(MatrixHashMixin, Matrix):
             return MyHashMatrix(result)
         return result
 
-    # Кэшированное произведение матриц
     def cached_matmul(self, other):
         cache = {}
         # Генерация ключа для кэша
@@ -43,21 +46,26 @@ class MyHashMatrix(MatrixHashMixin, Matrix):
     def write_to_file(self, file_path):
         np.savetxt(file_path, self.data, delimiter=',', fmt='%d')
 
-if __name__ == '__main__':
-    np.random.seed(10)
-    A = MyHashMatrix(np.random.randint(0, 10, (10, 20)))
-    B = MyHashMatrix(np.random.randint(0, 10, (20, 10)))
-    C = MyHashMatrix(np.random.randint(0, 10, (10, 20)))
-    D = MyHashMatrix(np.random.randint(0, 10, (20, 10)))
+    def __eq__(self, other):
+        if isinstance(other, MyHashMatrix):
+            return np.array_equal(self.data, other.data)
+        else:
+            return False
 
+if __name__ == '__main__':
     # Проверка коллизий (hash(A) == hash(C)) and (A != C) and (B == D) and (A @ B != C @ D)
+    A = MyHashMatrix(np.array([[1, 2], [3, 4]]))
+    B = MyHashMatrix(np.array([[5, 6], [7, 8]]))
+    C = MyHashMatrix(np.array([[2, 1], [4, 3]]))    # (A != C)
+    D = MyHashMatrix(np.array([[5, 6], [7, 8]]))    # (B == D)
+
     assert A.__hash__() == C.__hash__(), 'Hash function causes collision!'
     assert B == D, 'Matrices B and D must be equal!'
 
     AB = A @ B
     CD = C @ D
 
-    assert not np.array_equal(AB.data, CD.data)
+    assert not AB == CD, 'Matrices AB and CD must not be equal!'
 
     A.write_to_file('artifacts/3_3/A.txt')
     B.write_to_file('artifacts/3_3/B.txt')
@@ -65,11 +73,11 @@ if __name__ == '__main__':
     D.write_to_file('artifacts/3_3/D.txt')
 
     result = A.cached_matmul(B)
-    result.write_to_file('artifacts/3_3/AB.txt')
+    result.write_to_file('artifacts/3_3/A@B.txt')
 
-    MyHashMatrix.matrix_operation_to_file('artifacts/3_3/A@B.txt', 'matmul', A, B)
-    MyHashMatrix.matrix_operation_to_file('artifacts/3_3/CD.txt', 'matmul', C, D)
+    MyHashMatrix.matrix_to_file('artifacts/3_3/AB.txt', 'matmul', A, B)
+    MyHashMatrix.matrix_to_file('artifacts/3_3/CD.txt', 'matmul', C, D)
 
-    with open('hash.txt', 'w') as f:
+    with open('artifacts/3_3/hash.txt', 'w') as f:
         f.write(f"hash(A @ B): {AB.__hash__()}\n")
         f.write(f"hash(C @ D): {CD.__hash__()}\n")
