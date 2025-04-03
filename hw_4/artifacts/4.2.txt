@@ -1,0 +1,53 @@
+CPU count: 12
+
+Using ThreadPoolExecutor:
+n_jobs=1, result=1.000000, time=2.4490 seconds
+n_jobs=2, result=1.000000, time=2.4031 seconds
+n_jobs=3, result=1.000000, time=2.4920 seconds
+n_jobs=4, result=1.000000, time=2.5725 seconds
+n_jobs=5, result=1.000000, time=2.6167 seconds
+n_jobs=6, result=1.000000, time=2.4774 seconds
+n_jobs=7, result=1.000000, time=2.6714 seconds
+n_jobs=8, result=1.000000, time=2.5004 seconds
+n_jobs=9, result=1.000000, time=2.6398 seconds
+n_jobs=10, result=1.000000, time=2.6117 seconds
+n_jobs=11, result=1.000000, time=2.4736 seconds
+n_jobs=12, result=1.000000, time=2.3856 seconds
+n_jobs=13, result=1.000000, time=2.4323 seconds
+n_jobs=14, result=1.000000, time=2.4523 seconds
+n_jobs=15, result=1.000000, time=2.4393 seconds
+n_jobs=16, result=1.000000, time=2.6229 seconds
+n_jobs=17, result=1.000000, time=2.4846 seconds
+n_jobs=18, result=1.000000, time=2.4647 seconds
+n_jobs=19, result=1.000000, time=2.4535 seconds
+n_jobs=20, result=1.000000, time=2.5305 seconds
+n_jobs=21, result=1.000000, time=2.4038 seconds
+n_jobs=22, result=1.000000, time=2.4617 seconds
+n_jobs=23, result=1.000000, time=2.4020 seconds
+n_jobs=24, result=1.000000, time=2.3818 seconds
+
+Using ProcessPoolExecutor:
+n_jobs=1, result=1.000000, time=3.8697 seconds
+n_jobs=2, result=1.000000, time=2.9572 seconds
+n_jobs=3, result=1.000000, time=2.7393 seconds
+n_jobs=4, result=1.000000, time=2.5659 seconds
+n_jobs=5, result=1.000000, time=2.5156 seconds
+n_jobs=6, result=1.000000, time=2.7913 seconds
+n_jobs=7, result=1.000000, time=2.4618 seconds
+n_jobs=8, result=1.000000, time=2.3937 seconds
+n_jobs=9, result=1.000000, time=2.5634 seconds
+n_jobs=10, result=1.000000, time=2.6148 seconds
+n_jobs=11, result=1.000000, time=3.2691 seconds
+n_jobs=12, result=1.000000, time=3.7371 seconds
+n_jobs=13, result=1.000000, time=3.3245 seconds
+n_jobs=14, result=1.000000, time=3.3778 seconds
+n_jobs=15, result=1.000000, time=3.5295 seconds
+n_jobs=16, result=1.000000, time=3.9470 seconds
+n_jobs=17, result=1.000000, time=4.4551 seconds
+n_jobs=18, result=1.000000, time=4.3576 seconds
+n_jobs=19, result=1.000000, time=5.3370 seconds
+n_jobs=20, result=1.000000, time=5.8258 seconds
+n_jobs=21, result=1.000000, time=5.8943 seconds
+n_jobs=22, result=1.000000, time=6.0850 seconds
+n_jobs=23, result=1.000000, time=6.0298 seconds
+n_jobs=24, result=1.000000, time=7.1817 seconds
